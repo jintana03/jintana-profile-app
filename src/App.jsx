@@ -10,7 +10,7 @@ import Contact from "./views/Contact";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/my-profile-jintana.github.io">
       {/* 👇 เพิ่ม GlobalStyles ที่นี่ */}
       <GlobalStyles
         styles={{
